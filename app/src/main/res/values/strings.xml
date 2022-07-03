@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Trabalho3ProgMobile</string>
+
+    <string-array name="numeros">
+        <item>1</item>
+    </string-array>
+
+    <string-array name="numeros2">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="numeros3">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="numeros4">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>
