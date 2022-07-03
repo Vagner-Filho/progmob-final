@@ -39,14 +39,14 @@ public class FornecedorLogado extends AppCompatActivity {
         titulo2 = findViewById(R.id.titulo2);
         subTitulo1 = findViewById(R.id.subtitulo1);
         subTitulo2 = findViewById(R.id.subtitulo2);
-        teste = findViewById(R.id.textView9);
+        //teste = findViewById(R.id.textView9);
 
-        if(fornecedorLogado != null) {
+        /*if(fornecedorLogado != null) {
             teste.setText("AAAAAAAAAAAAAA");
         }
         if(fornecedorLogado == null) {
             teste.setText("NBBBBBBBBBBBBB");
-        }
+        }*/
         if (tipoPedidos != null) {
             titulo1.setText("Pedidos Aceitos");
             titulo2.setText("Pedidos em Espera");

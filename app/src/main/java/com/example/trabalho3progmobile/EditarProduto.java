@@ -14,6 +14,7 @@ import android.widget.Toast;
 import com.example.trabalho3progmobile.activities.PedidosRealizadosActivity;
 import com.example.trabalho3progmobile.db.DBHelper;
 import com.example.trabalho3progmobile.entities.Fornecedor;
+import com.example.trabalho3progmobile.entities.Pedido;
 import com.example.trabalho3progmobile.entities.Produto;
 
 public class EditarProduto extends AppCompatActivity {
@@ -28,6 +29,7 @@ public class EditarProduto extends AppCompatActivity {
     Fornecedor fornecedor;
     Button btnExcluir;
     LinearLayout botoes;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +62,7 @@ public class EditarProduto extends AppCompatActivity {
             btnExcluir.setVisibility(View.INVISIBLE);
             botoes.setOrientation(LinearLayout.VERTICAL);
         }
+
 
         btnSalvar.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -7,12 +7,6 @@
     android:orientation="vertical"
     tools:context=".activities.PedidosRealizadosActivity">
 
-    <TextView
-        android:id="@+id/teste"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="AAAAAAAAAAA"
-        android:textSize="50dp"/>
     <ListView
         android:id="@+id/listPedidos"
         android:layout_width="match_parent"

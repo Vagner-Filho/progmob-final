@@ -45,7 +45,7 @@ public class PedidosRealizadosActivity extends AppCompatActivity {
         fornecedorLogado = (Fornecedor) it.getSerializableExtra("fornecedor");
         tipoPedidos = (String) it.getSerializableExtra("tipoPedidos");
 
-        txt = findViewById(R.id.teste);
+        //txt = findViewById(R.id.teste);
 
         listPedidos = findViewById(R.id.listPedidos);
 
@@ -62,6 +62,7 @@ public class PedidosRealizadosActivity extends AppCompatActivity {
                     Intent it = new Intent(PedidosRealizadosActivity.this, ProdutosPedidoActivity.class);
                     it.putExtra("pedido", arrayListPedidosCorretos.get(i));
                     it.putExtra("posicao", i);
+                    it.putExtra("tipoPedidos", tipoPedidos);
                     startActivity(it);
                 }
             }
