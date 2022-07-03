@@ -18,18 +18,16 @@
 
     <Button
         android:id="@+id/btnLoginCliente"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/stdBtn"
+        android:layout_marginTop="100dp"
         android:onClick="loginCliente"
-        android:text="Cliente"
-        android:layout_marginTop="100dp"/>
+        android:text="Cliente" />
 
     <Button
         android:id="@+id/btnLoginFornecedor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:onClick="loginFornecedor"
         android:text="Fornecedor"
+        style="@style/stdBtn"
         android:layout_marginTop="100dp"/>
 
 

@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3395" />
+        <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3395" />
+        <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/layout/activity_login.xml" value="0.3333333333333333" />
+        <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Trabalho3ProgMobile/app/src/main/res/layout/activity_adicionar_carrinho.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Trabalho3ProgMobile/app/src/main/res/layout/activity_adicionar_sacola.xml" value="0.33" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Trabalho3ProgMobile/app/src/main/res/layout/activity_carrinho.xml" value="0.2" />
