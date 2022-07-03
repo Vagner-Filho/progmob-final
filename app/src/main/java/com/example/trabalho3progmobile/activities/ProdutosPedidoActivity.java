@@ -53,6 +53,7 @@ public class ProdutosPedidoActivity extends AppCompatActivity {
     TextView txthorarioRealizado;
     TextView txtstatus;
     TextView txtfornecedor;
+    String tipoPedidos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,6 +64,7 @@ public class ProdutosPedidoActivity extends AppCompatActivity {
         pedido = (Pedido) it.getSerializableExtra("pedido");
         clienteLogado = (Cliente) it.getSerializableExtra("cliente");
         int posicao = (int) it.getSerializableExtra("posicao");
+        tipoPedidos = (String) it.getSerializableExtra("tipoPedidos");
 
         txtPedido = findViewById(R.id.pedido);
         txtTotal = findViewById(R.id.total);
@@ -142,12 +144,12 @@ public class ProdutosPedidoActivity extends AppCompatActivity {
                     existe = helper.existemUnidadesSuficientes(pedido);
                     alert(String.valueOf(existe));
                     if(existe) {
-                        helper.aceitarPedido(pedido);
+                        //helper.aceitarPedido(pedido);
                         alert("Pedido Aceito com Sucesso!");
-/*
+
                         Intent intent=new Intent(ProdutosPedidoActivity.this,PedidosRealizadosActivity.class);
-                        PendingIntent pendingIntent= PendingIntent.getActivity(
-                                ProdutosPedidoActivity.this,0,intent,0);
+                        /*PendingIntent pendingIntent= PendingIntent.getActivity(
+                                ProdutosPedidoActivity.this,0,it,0);*/
                         String CHANNEL_ID="com.example.trabalho3progmobile";
                         String CHANNEL_NAME="CHANNEL_NAME_APP_NOTIFICATION";
                         if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.O){
@@ -160,12 +162,12 @@ public class ProdutosPedidoActivity extends AppCompatActivity {
                         NotificationCompat.Builder mBuilder=new NotificationCompat.Builder(
                                 ProdutosPedidoActivity.this, CHANNEL_ID).
                                 setSmallIcon(android.R.drawable.stat_notify_more).
-                                setContentTitle("Testando").
-                                setContentText("Boraaaaaaaaaaaaaaaa").
-                                setPriority(NotificationCompat.PRIORITY_DEFAULT).
-                                setContentIntent(pendingIntent).setAutoCancel(true);
+                                setContentTitle("Pedido Aceito").
+                                setContentText("Cliente "+pedido.getClienteCpf()).
+                                setPriority(NotificationCompat.PRIORITY_DEFAULT)/*.
+                                setContentIntent(pendingIntent).setAutoCancel(true)*/;
                         NotificationManagerCompat notif=NotificationManagerCompat.from(ProdutosPedidoActivity.this);
-                        notif.notify(0,mBuilder.build());*/
+                        notif.notify(0,mBuilder.build());
 
 
                         finish();
@@ -210,6 +212,13 @@ public class ProdutosPedidoActivity extends AppCompatActivity {
             btnCancelar.setText("ACEITAR");
             btnRecusar.setVisibility(View.VISIBLE);
             botoes.setOrientation(LinearLayout.HORIZONTAL);
+        }
+
+
+        if(tipoPedidos.equals("aceitos")) {
+            btnCancelar.setVisibility(View.INVISIBLE);
+            btnRecusar.setVisibility(View.INVISIBLE);
+
         }
         helper.close();
 

@@ -58,7 +58,11 @@ public class ProdutosDisponiveisActivity extends AppCompatActivity {
         /*Bundle args = getIntent().getExtras();
         cpf = args.getInt("cpf");
         //email = args.getString("cpf");*/
+<<<<<<< HEAD
         txt=findViewById(R.id.textView);
+=======
+        //txt=findViewById(R.id.textView8);
+>>>>>>> c47e1e3fedb93c91362290d8d55976341d50cd39
 
         listClientes=findViewById(R.id.listClientes);
         //registerForContextMenu(listClientes);
