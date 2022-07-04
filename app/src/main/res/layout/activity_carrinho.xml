@@ -22,7 +22,7 @@
         android:layout_marginLeft="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="15dp"
+        android:textSize="20dp"
         android:text="Seu Pedido"/>
 
     <TextView
@@ -31,7 +31,7 @@
         android:layout_marginBottom="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="10dp"
+        android:textSize="17dp"
         android:text="Confira abaixo seu pedido:"/>
 
     <TextView

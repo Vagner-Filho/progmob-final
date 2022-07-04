@@ -57,7 +57,7 @@
         <Button
             android:id="@+id/btnConfirmarPedido"
             style="@style/stdBtn"
-            android:layout_width="200dp"
+            android:layout_width="220dp"
             android:layout_marginStart="56dp"
             android:layout_marginTop="36dp"
             android:text="Confirmar Pedido"

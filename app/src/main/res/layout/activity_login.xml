@@ -8,27 +8,27 @@
 
     <EditText
         android:id="@+id/edtEmail"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="46dp"
+        style="@style/stdEditText"
         android:layout_marginTop="208dp"
         android:ems="10"
         android:hint="@string/emailHint"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/edtSenha"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="46dp"
+        style="@style/stdEditText"
         android:layout_marginTop="283dp"
         android:ems="10"
         android:hint="@string/senhaHint"
         android:inputType="textPassword"
         android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
