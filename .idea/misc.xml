@@ -4,9 +4,26 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3395" />
+        <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/drawable/bordered_corner.xml" value="0.3385" />
         <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3395" />
+        <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/drawable/rounded_corners.xml" value="0.3395" />
+        <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/layout/activity_carrinho.xml" value="0.3333333333333333" />
+        <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/layout/activity_cliente_logado.xml" value="0.3333333333333333" />
+        <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/layout/activity_editar_produto.xml" value="0.3333333333333333" />
+        <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/layout/activity_finalizar_pedido.xml" value="0.3333333333333333" />
+        <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/layout/activity_form_cliente.xml" value="0.3333333333333333" />
+        <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/layout/activity_form_fornecedor.xml" value="0.3333333333333333" />
+        <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/layout/activity_fornecedores_disponiveis.xml" value="0.3333333333333333" />
         <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/layout/activity_login.xml" value="0.3333333333333333" />
         <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/layout/activity_pedidos_realizados.xml" value="0.3333333333333333" />
+        <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/layout/activity_produtos_disponiveis.xml" value="0.3333333333333333" />
+        <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/layout/activity_produtos_fornecedor.xml" value="0.3333333333333333" />
+        <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/layout/activity_produtos_pedido.xml" value="0.3333333333333333" />
+        <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/layout/adapter_carrinho.xml" value="0.3333333333333333" />
+        <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/layout/adapter_fornecedor.xml" value="0.3333333333333333" />
+        <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/layout/adapter_pedidos_feitos.xml" value="0.3333333333333333" />
+        <entry key="..\:/Projects/FACOM/progmob-final/app/src/main/res/layout/adapter_produtos_item.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Trabalho3ProgMobile/app/src/main/res/layout/activity_adicionar_carrinho.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Trabalho3ProgMobile/app/src/main/res/layout/activity_adicionar_sacola.xml" value="0.33" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Trabalho3ProgMobile/app/src/main/res/layout/activity_carrinho.xml" value="0.2" />

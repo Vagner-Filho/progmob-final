@@ -2,13 +2,36 @@
 <resources>
     <style name="stdBtn" parent="Widget.AppCompat.Button">
         <item name="android:textColor">#fff</item>
-        <item name="borderRound">0dp</item>
+        <item name="android:textSize">18dp</item>
         <item name="backgroundTint">#007caf</item>
         <item name="android:layout_width">150dp</item>
         <item name="android:layout_height">50dp</item>
         <item name="android:background">@drawable/rounded_corners</item>
     </style>
-    <style name="txtViewMainAct" parent="Theme.Trabalho3ProgMobile">
-        <item name="fontFamily"></item>
+    <style name="cancelBtn" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">#fff</item>
+        <item name="borderRound">0dp</item>
+        <item name="backgroundTint">#A13B3B</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/rounded_corners</item>
+    </style>
+    <style name="stdEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">#000</item>
+        <item name="backgroundTint">#e4e4e4</item>
+        <item name="android:textColorHint">#989898</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="counterOverflowTextAppearance"></item>
+        <item name="android:background">@drawable/bordered_corner</item>
+    </style>
+    <style name="stdTextViewTitle" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
     </style>
 </resources>

@@ -24,7 +24,7 @@
         <EditText
             android:id="@+id/nome"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/stdEditText"
             android:ems="10"
             android:inputType="textPersonName"
             android:hint="Nome"
@@ -35,7 +35,7 @@
         <EditText
             android:id="@+id/descricao"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/stdEditText"
             android:ems="10"
             android:inputType="textPersonName"
             android:hint="Descricao"
@@ -46,7 +46,7 @@
         <EditText
             android:id="@+id/quantidade"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/stdEditText"
             android:ems="10"
             android:inputType="number"
             android:hint="Quantidade"
@@ -57,7 +57,7 @@
         <EditText
             android:id="@+id/preco"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/stdEditText"
             android:ems="10"
             android:inputType="numberDecimal"
             android:hint="Preço"
@@ -75,14 +75,12 @@
 
             <Button
                 android:id="@+id/btnSalvar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/stdBtn"
                 android:text="Salvar"/>
 
             <Button
                 android:id="@+id/btnExcluir"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/cancelBtn"
                 android:layout_marginLeft="50dp"
                 android:text="Excluir" />
         </LinearLayout>

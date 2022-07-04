@@ -6,11 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".activities.FinalizarPedidoActivity">
 
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
 
         <TextView
             android:id="@+id/textView4"
@@ -29,41 +27,37 @@
             android:layout_marginStart="56dp"
             android:layout_marginTop="116dp"
             android:text="Total: "
-            android:textSize="20dp"
             android:textColor="@color/verde"
+            android:textSize="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/edtHorario"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="56dp"
-            android:layout_marginTop="0dp"
+            style="@style/stdEditText"
             android:ems="10"
             android:hint="Ex: 15:30"
             android:inputType="textPersonName"
-            android:text="18:30"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/horario" />
 
         <EditText
             android:id="@+id/edtData"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="56dp"
-            android:layout_marginTop="0dp"
+            style="@style/stdEditText"
             android:ems="10"
             android:hint="Ex: 31/02/22"
-            android:text="01/07/22"
             android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/data" />
 
         <Button
             android:id="@+id/btnConfirmarPedido"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/stdBtn"
+            android:layout_width="200dp"
             android:layout_marginStart="56dp"
             android:layout_marginTop="36dp"
             android:text="Confirmar Pedido"
@@ -72,21 +66,25 @@
 
         <TextView
             android:id="@+id/horario"
-            android:layout_width="wrap_content"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="57dp"
             android:layout_marginTop="39dp"
+            android:paddingStart="20dp"
             android:text="Horário de Retirada"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/precoTotal" />
 
         <TextView
             android:id="@+id/data"
-            android:layout_width="wrap_content"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="57dp"
             android:layout_marginTop="17dp"
+            android:paddingStart="20dp"
             android:text="Data de Retirada"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/edtHorario" />
 
