@@ -39,7 +39,7 @@ public class FornecedorLogado extends AppCompatActivity {
         titulo2 = findViewById(R.id.titulo2);
         subTitulo1 = findViewById(R.id.subtitulo1);
         subTitulo2 = findViewById(R.id.subtitulo2);
-        teste = findViewById(R.id.textView9);
+        teste = findViewById(R.id.textView);
 
         if(fornecedorLogado != null) {
             teste.setText("AAAAAAAAAAAAAA");

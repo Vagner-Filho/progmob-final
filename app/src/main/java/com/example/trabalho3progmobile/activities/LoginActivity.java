@@ -38,12 +38,6 @@ public class LoginActivity extends AppCompatActivity {
 
         edtEmail=findViewById(R.id.edtEmail);
         edtSenha=findViewById(R.id.edtSenha);
-
-        t1=findViewById(R.id.emaill);
-        t2=findViewById(R.id.senhaa);
-        t3=findViewById(R.id.buscarSenha);
-        t4=findViewById(R.id.algo);
-
     }
 
     public void entrar(View view) {
