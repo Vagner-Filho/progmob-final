@@ -28,13 +28,11 @@
             android:id="@+id/edtHorario"
             android:layout_width="wrap_content"
             style="@style/stdEditText"
-            android:layout_height="wrap_content"
             android:layout_marginStart="56dp"
             android:layout_marginTop="0dp"
             android:ems="10"
             android:hint="Ex: 15:30"
             android:inputType="textPersonName"
-            android:text="18:30"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/horario" />
 
@@ -42,12 +40,10 @@
             android:id="@+id/edtData"
             style="@style/stdEditText"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_marginStart="56dp"
             android:layout_marginTop="0dp"
             android:ems="10"
             android:hint="Ex: 31/02/22"
-            android:text="01/07/22"
             android:inputType="textPersonName"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/data" />
