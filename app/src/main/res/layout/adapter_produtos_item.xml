@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical"
+
+    android:paddingBottom="35dp">
+
+
+    <ImageView
+        android:id="@+id/imagem"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="Coca-Cola"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/descricao"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="Coca Cola lata 350 ML     Coca Cola lata 350 ML         Coca Cola lata 350 ML     Coca Cola lata 350 ML"
+        android:textAlignment="center"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/unidades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Unidades disponíveis: 100"
+        android:textAlignment="center"
+        android:textSize="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/preco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="R$ 5,00"
+        android:textAlignment="center"
+        android:textColor="@color/verde"
+        android:textSize="20dp"/>
+
+    <!--<ImageView
+        android:id="@+id/imagem"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/descricao"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="Coca Cola lata 350 ML     Coca Cola lata 350 ML         Coca Cola lata 350 ML     Coca Cola lata 350 ML"
+        android:textAlignment="center"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/preco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="R$ 5,00"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:id="@+id/diminuir"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="-"
+            android:textAlignment="textStart"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/quantidade"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/aumentar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="+"
+            android:textAlignment="textEnd"
+            android:textSize="30dp" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:backgroundTint="#00FFFFFF"
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_gravity="right"
+            /> -->
+
+    <!--</LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="Quantidade"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnAdicionar"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Adicionar ao Carrinho"
+        android:textAlignment="center"
+        android:textSize="13dp" /-->
+
+</LinearLayout>
